@@ -1,7 +1,7 @@
 {
-	"start" : "馃榾 Para comprar sua SSH/EHI de 30 dias BR use o nosso bot de vendas @YellowSSHBot, voc锚 tamb茅m pode ganhar uma renda extra com o nosso Painel de Revenda",
+	"start" : "Servidor VPN premium de alta velocidad y SSH SSL / TLS, Haga su conexion mas segura y desbloquee todos los sitios con una cuenta SSH",
 	"sshgratis" : {
-		"nao_criado" : "馃檭 Voc锚 j谩 criou uma conta SSH hoje volte amanh茫 :)",
-		"limite" : "馃懡 Atingimos o limite de contas por hoje volte amanh茫 :)"
+		"nao_criado" : "Ya ha creado una cuenta SSH hoy. Vuelva mañana. :)",
+		"limite" : "Hemos alcanzado el límite de cuentas para hoy, vuelve mañana :) "
 	}
 }
