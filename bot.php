@@ -56,7 +56,7 @@ switch ($tlg->Text ()){
 
 	$tlg->sendMessage ([
 		'chat_id' => $tlg->ChatID (),
-		'text' => 'Bot original @admysshbot por @httd1'
+		'text' => 'Bot original'
 	]);
 
 	break;
@@ -64,7 +64,7 @@ switch ($tlg->Text ()){
 
 	$tlg->sendMessage ([
 		'chat_id' => $tlg->ChatID (),
-		'text' => 'Foram criadas <b>'.$redis->dbSize ().'</b> contas nas ultimas 24h',
+		'text' => 'Foram criadas <b>'.$redis->dbSize ().'</b> cuentas las ultimas 24h',
 		'parse_mode' => 'html'
 	]);
 
@@ -81,7 +81,7 @@ switch ($tlg->Text ()){
 
 	} elseif ($redis->exists ($tlg->UserID ())){
 
-		$textoSSH=$textoMsg->sshgratis->nao_criado;
+		$textoSSH=$textoMsg->sshgratis->no_creado;
 
 	} else {
 
@@ -90,7 +90,7 @@ switch ($tlg->Text ()){
 
 		exec ('./gerarusuario.sh '.$usuario.' '.$senha.' 1 1');
 
-		$textoSSH="🇨🇴 Cuenta SSH creada ;)\r\n\r\n<b>Servidor:</b> <code>".$ip."</code>\r\n<b>Usuario:</b> <code>".$usuario."</code>\r\n<b>Senha:</b> <code>".$senha."</code>\r\n<b>Logins:</b> 1\r\n<b>Validade:</b> ".date ('d/m', strtotime('+1 day'))."\r\n\r\n🤙 Cortesia do @RACYNVPN";
+		$textoSSH="🇨🇴 Cuenta SSH creada ;)\r\n\r\n<b>Servidor:</b> <code>".$ip."</code>\r\n<b>Usuario:</b> <code>".$usuario."</code>\r\n<b>Senha:</b> <code>".$senha."</code>\r\n<b>Logins:</b> 1\r\n<b>Validade:</b> ".date ('d/m', strtotime('+3 day'))."\r\n\r\n🤙 Cortesia do @RACYNVPN";
 
 		$redis->setex ($tlg->UserID (), 43200, 'true'); //define registro para ser guardado por 12h
 
