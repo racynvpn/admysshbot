@@ -1,7 +1,7 @@
 {
 	"start" : "Servidor VPN premium de alta velocidad y SSH SSL / TLS, Haga su conexion mas segura y desbloquee todos los sitios con una cuenta SSH",
 	"sshgratis" : {
-		"nao_criado" : "Ya ha creado una cuenta SSH hoy. Vuelva mañana. :)",
-		"limite" : "Hemos alcanzado el límite de cuentas para hoy, vuelve mañana :) "
+		"no_creado" : "Ya ha creado una cuenta SSH hoy. Vuelva ma帽ana. :)",
+		"limite" : "Hemos alcanzado el l篓陋mite de cuentas para hoy, vuelve ma帽ana :) "
 	}
 }
